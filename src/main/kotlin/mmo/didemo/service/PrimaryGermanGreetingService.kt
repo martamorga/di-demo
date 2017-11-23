@@ -6,11 +6,10 @@ import org.springframework.stereotype.Service
 
 @Service
 @Primary
-@Profile("en")
-//@Profile({"en", "default"})//nie wiem czemu nie działa
-class PrimaryGreetingService : GreetingService {
+@Profile("de")
+class PrimaryGermanGreetingService : GreetingService {
 
     override fun sayGreeting(): String {
-        return "Hello from primary service"
+        return "Iś hajze Marta ;) - pozdro z profilu niemieckiego"
     }
 }
