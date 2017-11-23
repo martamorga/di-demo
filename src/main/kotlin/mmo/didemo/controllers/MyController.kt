@@ -1,6 +1,5 @@
 package mmo.didemo.controllers
 
-import mmo.didemo.service.GreetingService
 import org.springframework.stereotype.Controller
 
 @Controller
