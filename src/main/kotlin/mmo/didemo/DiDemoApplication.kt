@@ -18,8 +18,8 @@ fun main(args: Array<String>) {
     //controller.hello()
 
     System.out.println(controller.hello())
-    //System.out.println(ctx.getBean(PropertyInjectedController::class.java).sayHello())
-    //System.out.println(ctx.getBean(GetterInjectedController::class.java).sayHello())
-    //System.out.println(ctx.getBean(ConstructorInjectedController::class.java).sayHello())
+    System.out.println(ctx.getBean(PropertyInjectedController::class.java).sayHello())
+    System.out.println(ctx.getBean(GetterInjectedController::class.java).sayHello())
+    System.out.println(ctx.getBean(ConstructorInjectedController::class.java).sayHello())
 
 }
