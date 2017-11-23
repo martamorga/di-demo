@@ -15,9 +15,11 @@ fun main(args: Array<String>) {
 
     val controller = ctx.getBean("myController") as MyController
 
-    controller.hello()
-    System.out.println(ctx.getBean(PropertyInjectedController::class.java).sayHello())
-    System.out.println(ctx.getBean(GetterInjectedController::class.java).sayHello())
-    System.out.println(ctx.getBean(ConstructorInjectedController::class.java).sayHello())
+    //controller.hello()
+
+    System.out.println(controller.hello())
+    //System.out.println(ctx.getBean(PropertyInjectedController::class.java).sayHello())
+    //System.out.println(ctx.getBean(GetterInjectedController::class.java).sayHello())
+    //System.out.println(ctx.getBean(ConstructorInjectedController::class.java).sayHello())
 
 }
